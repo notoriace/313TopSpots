@@ -27,8 +27,9 @@ public class RestaurantsFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<TopSpot> restuarants = new ArrayList<TopSpot>();
-        restuarants.add(new TopSpot("Parc", "313-555-1212"));
-        restuarants.add(new TopSpot("Dime Store", "313-555-1414"));
+        restuarants.add(new TopSpot(R.string.Parc, R.string.Parcs_Number));
+        restuarants.add(new TopSpot(R.string.Dime_Store, R.string.Dime_Number));
+        restuarants.add(new TopSpot(R.string.They_Say, R.string.They_Say_Number));
 
 
 

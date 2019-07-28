@@ -26,26 +26,24 @@
         android:paddingLeft="16dp">
 
         <TextView
-            android:id="@+id/location_number"
+            android:id="@+id/location_name"
             android:layout_width="match_parent"
             android:layout_height="44dp"
             android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
-
             android:textStyle="bold"
-            tools:text="lutti" />
+            tools:text="Location Name" />
 
         <TextView
-            android:id="@+id/location_name"
+            android:id="@+id/location_number"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_below="@id/location_number"
+            android:layout_below="@id/location_name"
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium"
-
-            tools:text="one" />
+            tools:text="xxx-xxx-xxxx" />
 
 
     </RelativeLayout>

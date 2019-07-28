@@ -15,7 +15,7 @@
 <resources>
     <string name="app_name">TheD</string>
 
-    <string name="Restaurants_Page_Title">Restaurants</string>
+    <string name="Restaurants_Page_Title">Food</string>
 
     <string name="Arenas_Page_Title">Arenas</string>
 
@@ -24,4 +24,47 @@
     <string name="Condos_Page_Title">Condos</string>
 
     <string name="River_Place">200 River Place</string>
+
+    <string name="River_Place_Number">313-555-0001</string>
+    
+    <string name="Book_Cadillac">Book Cadillac</string>
+
+    <string name="Book_Cadillac_Number">313-555-0002</string>
+
+    <string name="Willys_Lofts">Willys Overlands Lofts</string>
+
+    <string name="Willys_Number">313-555-0003</string>
+
+    <string name="Ford_Field">Ford Field</string>
+
+    <string name="Fords_Number">313-555-0004</string>
+
+    <string name="Little_Ceasers">Little Ceasers Arena</string>
+
+    <string name="LCA_Number">313-555-0005</string>
+
+    <string name="Parc">Parc</string>
+
+    <string name="Parcs_Number">313-555-0006</string>
+
+    <string name="Dime_Store">Dime Store</string>
+
+    <string name="Dime_Number">313-555-0007</string>
+
+    <string name="They_Say">They Say</string>
+
+    <string name="They_Say_Number">313-555-0008</string>
+
+    <string name="MGM">MGM</string>
+
+    <string name="MGM_Number">313-555-0009</string>
+
+    <string name="Motor_City">Motor City Casion</string>
+
+    <string name="Motor_City_NUmber">313-555-0010</string>
+
+    <string name="Greektown">Greektown Casino</string>
+
+    <string name="Greektown_Number">313-555-0011</string>
+
 </resources>

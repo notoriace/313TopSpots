@@ -6,10 +6,10 @@ public class TopSpot extends Fragment {
 
 
         /** String resource for name of the location*/
-        private String mLocationName;
+        private int mLocationName;
 
         /** String resource for location phone number*/
-        private String mLocationNumber;
+        private int mLocationNumber;
 
         //**Image Resource ID for the Location*/
         private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -23,7 +23,7 @@ public class TopSpot extends Fragment {
      * @param LocationName take in the name of the location
      * @param LocationNumber take in the phone number of the location
      */
-    public TopSpot (String LocationName, String LocationNumber) {
+    public TopSpot (int LocationName, int LocationNumber) {
             mLocationName = LocationName;
             mLocationNumber = LocationNumber;
         }
@@ -36,7 +36,7 @@ public class TopSpot extends Fragment {
      * @param LocationNumber take in the phone number of the location
      * @param imageResourceId is the drawable resource ID for teh image associated with the location
      */
-        public TopSpot (String LocationName, String LocationNumber, int imageResourceId) {
+        public TopSpot (int LocationName, int LocationNumber, int imageResourceId) {
             mLocationName = LocationName;
             mLocationNumber = LocationNumber;
             mImageResourceId = imageResourceId;
@@ -45,10 +45,10 @@ public class TopSpot extends Fragment {
 
         //Is the public method to get the location.
 
-        public String getLocationName() {return mLocationName;}
+        public int getLocationName() {return mLocationName;}
 
         //Is the public method to get the location's phone number.
-        public String getLocationNumber() {return mLocationNumber;}
+        public int getLocationNumber() {return mLocationNumber;}
 
         //The public method to get the image of the location
         public int getImageResourceId() {

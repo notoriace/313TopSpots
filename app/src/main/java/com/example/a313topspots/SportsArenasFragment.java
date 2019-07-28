@@ -25,15 +25,15 @@ public class SportsArenasFragment extends Fragment {
 
 
         // Create a list of words
-        final ArrayList<TopSpot> restuarants = new ArrayList<TopSpot>();
-        restuarants.add(new TopSpot("Ford Field", "313-555-0000"));
-        restuarants.add(new TopSpot("Little Ceasers Arena", "313-555-2828"));
+        final ArrayList<TopSpot> arenas = new ArrayList<TopSpot>();
+        arenas.add(new TopSpot(R.string.Ford_Field, R.string.Fords_Number));
+        arenas.add(new TopSpot(R.string.Little_Ceasers, R.string.LCA_Number));
 
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        TopSpotArrayAdapter adapter = new TopSpotArrayAdapter(getActivity(), restuarants, R.color.category_colors);
+        TopSpotArrayAdapter adapter = new TopSpotArrayAdapter(getActivity(), arenas, R.color.category_colors);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

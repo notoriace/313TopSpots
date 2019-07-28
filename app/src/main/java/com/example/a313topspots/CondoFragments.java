@@ -25,16 +25,16 @@ public class CondoFragments extends Fragment {
 
 
         // Create a list of words
-        final ArrayList<TopSpot> restuarants = new ArrayList<TopSpot>();
-        restuarants.add(new TopSpot("River Place", "313-555-0001", R.drawable.riverplace));
-        restuarants.add(new TopSpot("Book Cadillac", "313-555-8289", R.drawable.bookcadillac));
-        restuarants.add(new TopSpot("Willy's Overland Lofts", "313-555-9999", R.drawable.willyslofts));
+        final ArrayList<TopSpot> condo = new ArrayList<TopSpot>();
+        condo.add(new TopSpot(R.string.River_Place, R.string.River_Place_Number, R.drawable.riverplace));
+        condo.add(new TopSpot(R.string.Book_Cadillac, R.string.Book_Cadillac_Number, R.drawable.bookcadillac));
+        condo.add(new TopSpot(R.string.Willys_Lofts, R.string.Willys_Number, R.drawable.willyslofts));
 
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        TopSpotArrayAdapter adapter = new TopSpotArrayAdapter(getActivity(), restuarants, R.color.category_colors);
+        TopSpotArrayAdapter adapter = new TopSpotArrayAdapter(getActivity(), condo, R.color.category_colors);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
