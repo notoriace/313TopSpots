@@ -4,11 +4,8 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
-import com.example.a313topspots.CategoryAdapter;
-import com.example.a313topspots.R;
 import com.google.android.material.tabs.TabLayout;
-import android.support.design.widget.TabLayout;
+
 
 
 public class MainActivity extends AppCompatActivity {
