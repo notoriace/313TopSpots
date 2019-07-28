@@ -26,8 +26,9 @@ public class CondoFragments extends Fragment {
 
         // Create a list of words
         final ArrayList<TopSpot> restuarants = new ArrayList<TopSpot>();
-        restuarants.add(new TopSpot("River Place", "313-555-0001"));
-        restuarants.add(new TopSpot("Book Cadillac", "313-555-828"));
+        restuarants.add(new TopSpot("River Place", "313-555-0001", R.drawable.riverplace));
+        restuarants.add(new TopSpot("Book Cadillac", "313-555-8289", R.drawable.bookcadillac));
+        restuarants.add(new TopSpot("Willy's Overland Lofts", "313-555-9999", R.drawable.willyslofts));
 
 
 
